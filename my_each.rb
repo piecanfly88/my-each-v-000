@@ -1,3 +1,4 @@
+require 'pry'
 def my_each(array)
   counter = 0
   if block_given?
@@ -5,3 +6,5 @@ def my_each(array)
     counter += 1
   end
 end
+
+binding.pry
